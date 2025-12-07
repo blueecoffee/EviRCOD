@@ -20,7 +20,7 @@ Python v3.9, Pytorch 2.5.1, Cuda 12.8, TensorboardX 2.0, opencv-python
 - Update the 'data_root' param with your R2C7K location in ```train.py```, ```infer.py``` and ```test.py```.
 
 ### 2. Training
-- Download the pre-trained weights of [pvtv2]:链接: https://pan.baidu.com/s/1czmAayK9N5bW2HqrBDHWaw code: EviR on Baidu Netdisk, and place them  in your custom floder.
+- Download the pre-trained weights of [pvtv2]: https://pan.baidu.com/s/1czmAayK9N5bW2HqrBDHWaw code: EviR on Baidu Netdisk, and place them  in your custom floder.
 - Run `python train.py` to train the model.
 - You can also download the our pre-trained [EviR.pth]: https://pan.baidu.com/s/10UtikqOnWzyGHxI8Ij-o2g code: EviR on Baidu Netdisk.
 
