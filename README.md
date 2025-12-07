@@ -20,14 +20,14 @@ Python v3.9, Pytorch 2.5.1, Cuda 12.8, TensorboardX 2.0, opencv-python
 - Update the 'data_root' param with your R2C7K location in ```train.py```, ```infer.py``` and ```test.py```.
 
 ### 2. Training
-- Download the pre-trained weights of [pvtv2]: https://pan.baidu.com/s/1czmAayK9N5bW2HqrBDHWaw code: EviR on Baidu Netdisk, and place them  in your custom floder.
+- Download the pre-trained weights of [pvtv2]: https://pan.baidu.com/s/1czmAayK9N5bW2HqrBDHWaw [code: EviR] on Baidu Netdisk, and place them  in your custom floder.
 - Run `python train.py` to train the model.
-- You can also download the our pre-trained [EviR.pth]: https://pan.baidu.com/s/10UtikqOnWzyGHxI8Ij-o2g code: EviR on Baidu Netdisk.
+- You can also download the our pre-trained [EviR.pth]: https://pan.baidu.com/s/10UtikqOnWzyGHxI8Ij-o2g [code: EviR] on Baidu Netdisk.
 
 ### 3. Testing
 - After training, run `python test.py` to evaluate the performance of EviRCOD.
 
 ### 4. Inference
 - After training, run `python infer.py` to generate the prediction maps of EviRCOD.
-- You can also download our prediction maps : https://pan.baidu.com/s/1oU18MDWG6BuyyFdaoOkOzQ code: EviR on Baidu Netdisk.
+- You can also download our prediction maps : https://pan.baidu.com/s/1oU18MDWG6BuyyFdaoOkOzQ [code: EviR] on Baidu Netdisk.
 
