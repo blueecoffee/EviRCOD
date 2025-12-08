@@ -34,11 +34,11 @@ The overall pipeline of EviRCOD is illustrated below, detailing the interaction 
 
 Extensive experiments on the Ref-COD benchmark (R2C7K) demonstrate that EviRCOD establishes a new state-of-the-art. As shown in the paper, EviRCOD consistently outperforms existing methods such as R2CNet and UAT across multiple evaluation metrics. The following table highlights the quantitative comparison:
 
-| Method | Sₘ ↑ | ωF ↑ | αE ↑ | MAE ↓ |
-|:------:|------|------|------|-------|
-| R2CNet | 0.805 | 0.669 | 0.879 | 0.036 |
-| UAT | 0.855 | 0.757 | 0.912 | 0.026 |
-| **EviRCOD (Ours)**| **0.869** | **0.799** | **0.944** | **0.021** |
+| Method           | Sₘ ↑ | ωF ↑ | αE ↑ | MAE ↓ |
+|:---------------:|:----:|:----:|:----:|:-----:|
+| R2CNet           | 0.805 | 0.669 | 0.879 | 0.036 |
+| UAT              | 0.855 | 0.757 | 0.912 | 0.026 |
+| **EviRCOD (Ours)** | **0.869** | **0.799** | **0.944** | **0.021** |
 
 *Note: Higher values are better for Sₘ, ωF, and αE; lower values are better for MAE.*
 
