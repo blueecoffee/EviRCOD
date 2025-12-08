@@ -11,12 +11,15 @@ The framework is optimized end-to-end via a joint hybrid loss that enforces stru
 ## **Visual Results**
 
 The visual results below demonstrate the superior performance of EviRCOD compared to existing methods such as R2CNet [1] and UAT [2]. As stated in the paper, the proposed EviRCOD generates more complete segmentation structures, sharper boundaries, and fewer background misclassifications.
+
 Visual Comparison 1：
 ![Visual Comparison 1](figures/figure1.png)
+
 Visual Comparison 2：
 ![Visual Comparison 2](figures/figure3.png)
 
 The following supplementary visualization further showcases the overall effectiveness of EviRCOD across diverse and challenging camouflage scenarios.
+
 Visual Comparison 3：
 
 ![Supplementary Visualization](figures/all_1.png)
