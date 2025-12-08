@@ -10,11 +10,14 @@ The framework is optimized end-to-end via a joint hybrid loss that enforces stru
 
 ## **Visual Results**
 
-The visual results below demonstrate the superior performance of EviRCOD compared to existing methods such as R2CNet [3] and UAT [4]. As stated in the paper, the proposed EviRCOD generates more complete segmentation structures, sharper boundaries, and fewer background misclassifications.
-![Visual Comparison 1](figures/figure1.png) 
+The visual results below demonstrate the superior performance of EviRCOD compared to existing methods such as R2CNet [1] and UAT [2]. As stated in the paper, the proposed EviRCOD generates more complete segmentation structures, sharper boundaries, and fewer background misclassifications.
+Visual Comparison 1：
+![Visual Comparison 1](figures/figure1.png)
+Visual Comparison 2：
 ![Visual Comparison 2](figures/figure3.png)
 
 The following supplementary visualization further showcases the overall effectiveness of EviRCOD across diverse and challenging camouflage scenarios.
+Visual Comparison 3：
 
 ![Supplementary Visualization](figures/all_1.png)
 
@@ -24,7 +27,7 @@ The overall pipeline of EviRCOD is illustrated below, detailing the interaction 
 
 ![EviRCOD Framework](figures/framework.png)
 
-## 📈 **Performance Summary**
+## **Performance Summary**
 
 Extensive experiments on the Ref-COD benchmark (R2C7K) demonstrate that EviRCOD establishes a new state-of-the-art. As shown in the paper, EviRCOD consistently outperforms existing methods such as R2CNet and UAT across multiple evaluation metrics. The following table highlights the quantitative comparison:
 
@@ -96,3 +99,8 @@ python infer.py
 ```
 
 Pre-generated prediction maps are available: [Baidu Netdisk](https://pan.baidu.com/s/1oU18MDWG6BuyyFdaoOkOzQ) (code: `EviR`).
+
+### 5. **REFERENCES**
+
+[1]Xuying Zhang, Bowen Yin, Zheng Lin, Qibin Hou, Deng-Ping Fan, and Ming-Ming Cheng, “Referring camouflaged object detection,” IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025.
+[2]Ranwan Wu, Tian-Zhu Xiang, Guo-Sen Xie, Rongrong Gao, Xiangbo Shu, Fang Zhao, and Ling Shao, “Uncertainty-aware transformer for referring camouflaged object detection,” IEEE Transactions on Image Processing, 2025.
