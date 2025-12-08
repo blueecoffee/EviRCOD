@@ -106,4 +106,5 @@ Pre-generated prediction maps are available: [Baidu Netdisk](https://pan.baidu.c
 ### 5. **REFERENCES**
 
 [1]Xuying Zhang, Bowen Yin, Zheng Lin, Qibin Hou, Deng-Ping Fan, and Ming-Ming Cheng, “Referring camouflaged object detection,” IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025.
+
 [2]Ranwan Wu, Tian-Zhu Xiang, Guo-Sen Xie, Rongrong Gao, Xiangbo Shu, Fang Zhao, and Ling Shao, “Uncertainty-aware transformer for referring camouflaged object detection,” IEEE Transactions on Image Processing, 2025.
