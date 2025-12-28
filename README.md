@@ -28,7 +28,7 @@ Visual Comparison 3：
 
 The overall pipeline of EviRCOD is illustrated below, detailing the interaction between the RGDE, UAED, and BARM modules within an end-to-end architecture.
 
-![EviRCOD Framework](figures/framework.png)
+![EviRCOD Framework](figures/overall.png)
 
 ## **Performance Summary**
 
