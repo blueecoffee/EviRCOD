@@ -1,6 +1,6 @@
 # **EviRCOD: Evidence-Guided Probabilistic Decoding for Referring Camouflaged Object Detection**
 
-**EviRCOD** is designed to jointly realize four essential capabilities: reference-guided semantic transfer, deformable context aggregation, evidence-based uncertainty quantification, and boundary-aware refinement. These capabilities are instantiated in a unified end-to-end architecture comprising three key components::
+**EviRCOD** is designed to jointly realize four essential capabilities: reference-guided semantic transfer, deformable context aggregation, evidence-based uncertainty quantification, and boundary-aware refinement. These capabilities are instantiated in a unified end-to-end architecture comprising three key components:
 
 1.  **Reference-Guided Deformable Encoder (RGDE)** couples hierarchical reference modulation with deformablenmulti-scale fusion, injecting semantic priors while adaptively aligning spatially variant tokens across resolutions.
 2.  **Uncertainty-Aware Evidential Decoder (UAED)** incorporates Dirichlet-based evidence theory into hierarchical decoding to jointly model epistemic and aleatoric uncertainty, enabling robust confidence propagation and improved structural consistency.
