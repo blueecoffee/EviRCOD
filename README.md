@@ -1,10 +1,10 @@
 # **EviRCOD: Evidence-Guided Probabilistic Decoding for Referring Camouflaged Object Detection**
 
-**EviRCOD** is an evidence-guided probabilistic framework for Referring Camouflaged Object Detection (Ref-COD). As introduced in the accompanying paper, the framework addresses key limitations in existing Ref-COD methods by integrating three novel components:
+**EviRCOD** is designed to jointly realize four essential capabilities: reference-guided semantic transfer, deformable context aggregation, evidence-based uncertainty quantification, and boundary-aware refinement. These capabilities are instantiated in a unified end-to-end architecture comprising three key components::
 
-1.  **Reference-Guided Deformable Encoder (RGDE)**: Designed to alleviate semantic mismatch and cross-scale inconsistency. It employs adaptive reference-driven modulation and deformable multi-scale aggregation to construct a semantically aligned latent space for target localization.
-2.  **Uncertainty-Aware Evidential Decoder (UAED)**: Aims to reconstruct fine-grained spatial structures while explicitly modeling prediction confidence. It integrates evidential learning into a hierarchical Transformer decoder, jointly modeling aleatoric and epistemic uncertainty for robust confidence propagation.
-3.  **Boundary-Aware Refinement Module (BARM)**: Leverages low-level edge priors and high-level uncertainty maps to selectively refine ambiguous boundaries, achieving precise contour recovery while preserving reliable regions.
+1.  **Reference-Guided Deformable Encoder (RGDE)** couples hierarchical reference modulation with deformablenmulti-scale fusion, injecting semantic priors while adaptively aligning spatially variant tokens across resolutions.
+2.  **Uncertainty-Aware Evidential Decoder (UAED)** incorporates Dirichlet-based evidence theory into hierarchical decoding to jointly model epistemic and aleatoric uncertainty, enabling robust confidence propagation and improved structural consistency.
+3.  **Boundary-Aware Refinement Module (BARM)** integrates fine-grained edge cues with confidence-guided gating to selectively refine ambiguous regions, achieving precise boundary recovery.
 
 The framework is optimized end-to-end via a joint hybrid loss that enforces structural fidelity, boundary sharpness, and well-calibrated uncertainty.
 
